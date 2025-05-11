@@ -1,0 +1,65 @@
+Isack Das**  
+📍Nairobi,Kasarani 📧izackdas@gmail,com 📞 +254 711295049 | 🔗 
+
+---
+
+Software Engineer  
+Passionate and motivated 18-year-old software engineer with hands-on training in full-stack development. Skilled in building responsive web applications, problem-solving, and collaborating in team environments. Eager to contribute technical skills and learn in a professional setting.  
+
+---
+
+Education 
+Somakodi School – Software Engineering Program  
+📍 [Nairobi] | 📅 2024/2025
+- Gained proficiency in frontend and backend development, databases, and software development principles  
+- Developed real-world projects including a food ordering system and real estate marketplace  
+
+---
+
+Technical Skills 
+- Frontend: HTML, CSS, JavaScript, React.js  
+- Backend: Node.js, Express  
+- Databases: MongoDB, PostgreSQL  
+- Tools: Git, VS Code, Postman  
+- Other: Responsive Design, API Integration  
+
+---
+
+Projects  
+1. Food Ordering Website – Full-Stack  
+- Built a responsive restaurant platform with cart functionality and user authentication  
+- Tech: React, Node.js, MongoDB  
+
+*2. Real Estate Marketplace* – Full-Stack  
+- Developed a property listing site with filters and user accounts  
+- Tech: [Your Stack]  
+
+---
+
+Experience
+Freelance Developer  
+📍 Self-Employed | 📅 2035  
+- Designed and deployed websites for small businesses  
+- Collaborated with clients to refine UI/UX  
+
+---
+
+Certifications  
+- Somakodi School – Software Engineering Certification (202X)  
+
+---
+
+Languages  
+- English (Fluent)  
+- [Other Languages]  
+
+---
+
+Interests  
+Open-Source Contribution, Web Development, Gaming tech. 
+
+---
+
+🔗 Links:  
+GitHub:  https://github.com/zack-das
+LinkedIn: https://www.linkedin.com/in/izack-das
