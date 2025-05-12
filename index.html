@@ -14,7 +14,30 @@
 </head>
 <body>
     <header class="header-section">
-        </div>
+        <!-- Menu Icon (Hamburger) -->
+<div class="menu-toggle" id="mobile-menu">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- Right Side Menu -->
+<div class="right-side-menu" id="rightMenu">
+  <div class="menu-close" id="closeMenu">×</div>
+  <ul class="mobile-nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="mobile-social-links">
+    <a href="https://github.com/zack-das"><i class='bx bxl-github'></i></a>
+    <a href="https://www.facebook.com/TecchDas" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/Izack_Das" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://instagram.com/artdavinci" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/izack-das" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+</div>
         <div class="navbar">
             <ul class="nav-lists"><a href="#home">Home</a></ul>
             <ul class="nav-lists"><a href="#about">About</a></ul>
@@ -145,5 +168,32 @@
   </div>
   <p style="color: aqua;">© 2025 TechieDas. All rights reserved.</p>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+  const menuToggle = document.getElementById('mobile-menu');
+  const rightMenu = document.getElementById('rightMenu');
+  const closeMenu = document.getElementById('closeMenu');
+
+  // Toggle menu
+  menuToggle.addEventListener('click', function() {
+    rightMenu.classList.add('open');
+  });
+
+  // Close menu
+  closeMenu.addEventListener('click', function() {
+    rightMenu.classList.remove('open');
+  });
+
+  // Close when clicking a link (optional)
+  const menuLinks = document.querySelectorAll('.mobile-nav-links a');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      rightMenu.classList.remove('open');
+    });
+  });
+});
+</script>
+
 </body>
 </html>
