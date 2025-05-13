@@ -10,26 +10,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
-    <header class="header-section">
+  <header class="header-section">
         <!-- Menu Icon (Hamburger) -->
-<div class="menu-toggle" id="mobile-menu">
-  <span></span>
-  <span></span>
-  <span></span>
-</div>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-<!-- Right Side Menu -->
-<div class="right-side-menu" id="rightMenu">
-  <div class="menu-close" id="closeMenu">×</div>
-  <ul class="mobile-nav-links">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#work">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
+    <!-- Right Side Menu -->
+    <div class="right-side-menu" id="rightMenu">
+      <div class="menu-close" id="closeMenu">×</div>
+      <ul class="mobile-nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
   <div class="mobile-social-links">
     <a href="https://github.com/zack-das"><i class='bx bxl-github'></i></a>
     <a href="https://www.facebook.com/TecchDas" target="_blank"><i class="fab fa-facebook"></i></a>
@@ -38,6 +41,9 @@
             <a href="https://www.linkedin.com/in/izack-das" target="_blank"><i class="fab fa-linkedin"></i></a>
   </div>
 </div>
+  <!--Right side menu end-->
+  <!--Header navigation-->
+ <div class="logo"><h1>Dev<span><i class="fa-solid fa-square-binary"></i></span>Das</h1></div>
         <div class="navbar">
             <ul class="nav-lists"><a href="#home">Home</a></ul>
             <ul class="nav-lists"><a href="#about">About</a></ul>
@@ -47,26 +53,24 @@
             <a href="https://www.facebook.com/TecchDas" target="_blank"><i class="fab fa-facebook"></i></a>
             <a href="https://x.com/Izack_Das" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
             <a href="https://instagram.com/artdavinci" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.linkedin.com/in/izack-das" target="_blank"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
     </header>
 
    <!--Home section--> 
-    <section class="home-section" id="home">
-        <div class="home">
-            <div class="home-container">
-            <div class="home-info">
-              <p class="text-one">Hello, I'm<span> Das</span>  </p>
-              <div class="avatar">
-                <img src="img/profile4.jpg" alt="">
-              </div>
-              <p class="text-two"> I'm a Software Engineer,<br>Website and web developer.</p>
-              <p class="text-three">Turning ideas into fast, scalable and functional software is<br>my passion . Every line I write is a rebellion against 'impossible.' </p>
-            </div>
-           
+      <section class="home-section" id="home">
+        <div class="home-container">
+          <!-- Left-aligned text container -->
+          <div class="text-container">
+            <p class="text-one">Hi, I'm <span>Das</span></p>
+            <p class="text-two">A Software Engineer,<br>Website and web developer</p>
+            <p class="text-three">Turning ideas into fast scalable and functional software is my passion. <br>Every line I write is a rebellion against 'impossible.'</p>
           </div>
-            
+      
+          <!-- Right-aligned image -->
+          <div class="avatar">
+            <img src="img/profile4.jpg" alt="Your Name">
+          </div>
         </div>
     </section>
     <!--Home section end-->
@@ -85,9 +89,11 @@
           <div class="skill-image"><img src="img/python.jpeg" alt=""></div>
           <div class="skill-image"><img src="img/tailwind.jpeg" alt=""></div>
           <div class="skill-image"><img src="img/web design23.png" alt=""></div>
+          <div class="skill-image"><img src="img/react.jpeg" alt=""></div>
         </div>
     </section>
 
+    <!--work section start-->
     <section class="work-section" id="work">
             <h2>Work</h2>
             <h1>My projects</h1>
@@ -135,20 +141,36 @@
             </div>
     </section>
 
- <!--Contact section start-->   
- <section class="contact" id="contact">
-   <h2>Contact Me</h2>
-    <div class="contact-container">
-      <form action="https://formspree.io/f/mbloprad" method="POST" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-        <input type="email" name="email" placeholder="Your Email" required>
-        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
+  <section class="contact-section">
+    <h1>Contact Me</h1>
+  <div class="container">
+    <div class="contact-content">
+      <div class="contact-text">
+        <h2>Let's get in touch.</h2>
+        <p class="tagline">and create great things...</p>
+        <div class="reach">
+          <p><i class="fa-solid fa-envelope"></i>izackdas@gmail.com</p>
+          <p><i class="fa-brands fa-whatsapp"></i>+254 798104933</p>
+        </div>
+      </div>
+      
+      <form class="contact-form">
+        <div class="form-group">
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+        <div class="form-group">
+          <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
       </form>
     </div>
-  </section>
+  </div>
+</section>
 
-  
+
   <!--Footer start-->
 <div class="footer">
   <div class="social-links">
@@ -160,15 +182,40 @@
     <a href="https://www.youtube.com/@TechieDAS" target="_blank"><i class="fab fa-youtube"></i></a>
     <a href="https://github.com/zack-das"><i class='bx bxl-github'></i></a>
   </div>
+  <div class="footer-box">
+    <h3>Services</h3>
+    <a href="#">Web Development</a>
+    <a href="#">Website Designing</a>
+    <a href="#">Mobile App Development</a>
+    <a href="#">API Development</a>
+</div>
+
+<div class="footer-box">
+    <h3>About</h3>
+    <a href="#">My skills</a>
+    <a href="#">Work</a>
+    <a href="#">Projects</a>
+    <a href="#">Careers</a>
+</div>
+
+<div class="footer-box">
+    <h3>Help</h3>
+    <a href="#">FAQs</a>
+    <a href="#">Contact me</a>
+</div>
 
   <div class="dm">
     <p><i class="fa-solid fa-envelope"></i>izackdas@gmail.com</p>
     <p><i class="fa-brands fa-whatsapp"></i>+254 798104933</p>
     <p><i class="fa-solid fa-location-dot"></i>Nairobi</p>
   </div>
-  <p style="color: aqua;">© 2025 TechieDas. All rights reserved.</p>
 </div>
+<!--Footer end-->
 
+<!--Copyright start-->
+<div class="copyright">
+  <p style="color: aqua;">© 2025 DevXDas.</p>
+</div>
 <script>
   document.addEventListener('DOMContentLoaded', function() {
   const menuToggle = document.getElementById('mobile-menu');
